@@ -23,7 +23,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
       - ruby/install:
-          version: '3.0.8'
+          version: '3.0.2'
   example-job:
     docker:
       # replace with your preferred image
