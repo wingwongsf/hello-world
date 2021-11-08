@@ -36,6 +36,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-  example-workflow:
     jobs:
       - example-job
