@@ -7,12 +7,14 @@ jobs:
       - image: cimg/ruby:3.0.2
     steps:
       - checkout
+      - run: bundle
       - run: ruby hello-world.rb
   test:
     docker:
       - image: cimg/ruby:3.0.2
     steps:
       - checkout
+      - run: bundle
       - run: ruby hello-world.rb
 
 # Orchestrate our job run sequence
